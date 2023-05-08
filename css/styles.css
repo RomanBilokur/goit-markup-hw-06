@@ -768,7 +768,7 @@ body {
   height: 40px;
   border: 1px solid var(--frequent-color);
   border-radius: 4px;
-  padding-left: 38px;
+  padding: 0 38px;
   transition: border-color var(--transition);
 }
 
