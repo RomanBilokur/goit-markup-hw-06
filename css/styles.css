@@ -857,7 +857,7 @@ body {
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
-  outline: 2px solid rgba(0, 0, 250, 0.5);
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-form-submit {
