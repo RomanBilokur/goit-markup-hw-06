@@ -844,6 +844,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 0;
+  background-image: url(../images/V-l.svg);
   transition: background-color var(--transition);
  
 
@@ -851,8 +852,6 @@ body {
 
 .modal-form-check:checked + .modal-form-check-desc::before {
   background-color: var(--btn-color);
-  box-shadow: inset;
-  background-image: url(../images/modal-gall.svg);
   
 }
 
