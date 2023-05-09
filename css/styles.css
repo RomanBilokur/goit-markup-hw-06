@@ -58,6 +58,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 /* Header */
 
 .page-header {
@@ -837,12 +839,25 @@ body {
   border-radius: 2px;
   content: "";
   cursor: pointer;
+  margin-right: 8px;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0;
+  transition: background-color var(--transition);
+ 
+
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
   background-color: var(--btn-color);
   box-shadow: inset;
-  background-image: url();
+  background-image: url(../images/modal-gall.svg);
+  
+}
+
+.modal-form-check:focus + .modal-form-check-desc::before {
+  outline: 2px solid rgba(0, 0, 250, 0.5);
 }
 
 .modal-form-submit {
@@ -865,12 +880,9 @@ body {
   transition: background-color var(--transition);
 }
 
-.modal-text-form {
-  display: block;
-  margin-bottom: 16px;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--frequent-color);
+
+.modal-form-check-desc {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
 }
