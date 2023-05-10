@@ -477,11 +477,30 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-mailto">
+          <p class="footer-mailto-text">Subscribe</p>
+          <form class="footer-mailto-form">
+            <label for="" class="footer-mailto-label">
+              <input
+                class="footer-mailto-input"
+                type="mailto"
+                name="mailto"
+                required 
+                placeholder="E-mail"/>
+            </label>
+            <button class="footer-mailto-btn" type="Subscribe">Subscribe
+              <svg class="footer-mailto-svg" width="24" height="20">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
     <!-- modal wind -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -575,7 +594,7 @@
             class="modal-form-check visually-hidden"
           />
           <label for="user-policy" class="modal-form-check-desc"
-            >I accept the terms and conditions of the
+            >I accept the terms and conditions of the&nbsp;
             <a href="">Privacy Policy</a>
           </label>
 
