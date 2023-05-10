@@ -122,6 +122,10 @@ body {
   margin: 0 auto;
 }
 
+.menu-link-after {
+  color: var(--btn-color);
+}
+
 .addressa {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -838,10 +842,9 @@ body {
   content: "";
   cursor: pointer;
   margin-right: 8px;
-  appearance: none;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 0;
+  background-image: url(../images/modal-vector-1.svg);
   transition: background-color var(--transition);
  
 
@@ -849,7 +852,7 @@ body {
 
 .modal-form-check:checked + .modal-form-check-desc::before {
   background-color: var(--btn-color);
-  background-image: url(../images/modal-vector-1.svg);
+  
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
@@ -881,7 +884,14 @@ body {
   display: flex;
   align-items: center;
   font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
   margin-bottom: 24px;
+  color: var(--border-link);
+}
+
+.color-privace {
+  color: var(--logo-btm-color);
 }
 
 .modal-text-form {
