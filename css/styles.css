@@ -895,14 +895,14 @@ body {
 
 }
 
-.footer-mailto {
+.footer-email {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   margin-left: 80px;
 }
 
-.footer-mailto-text {
+.footer-email-text {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -911,12 +911,12 @@ body {
   color: var(--fond-color);
 }
 
-.footer-mailto-form {
+.footer-email-form {
   display: flex;
   gap: 24px;
 }
 
-.footer-mailto-input {
+.footer-email-input {
   display: block;
   font-size: 12px;
   line-height: 2;
@@ -935,7 +935,7 @@ body {
   transition: outline-color var(--transition);
 }
 
-.footer-mailto-btn {
+.footer-email-btn {
   position: relative;
   display: flex;
   gap: 16px;
@@ -954,13 +954,13 @@ body {
   transition: background-color var(--transition);
 }
 
-.footer-mailto-btn:hover,
-.footer-mailto-btn:focus {
+.footer-email-btn:hover,
+.footer-email-btn:focus {
 background: var(--btn-color);
 color: var(--fond-color);
 }
 
-.footer-mailto-svg {
+.footer-email-svg {
   position: absolute;
   display: block;
   top: 50%;
