@@ -664,11 +664,6 @@ body {
   transform: translate(0, 100%);
   transition: transform 500ms linear;
   background: #4d5ae5;
-  background: linear-gradient(
-    0deg,
-    rgba(77, 90, 229, 0.7),
-    rgba(77, 90, 229, 0.7)
-  );
   background-blend-mode: soft-light, normal;
   mix-blend-mode: normal;
   color: #f4f4fd;
@@ -846,13 +841,10 @@ body {
   background-position: center;
   background-image: url(../images/modal-vector-1.svg);
   transition: background-color var(--transition);
- 
-
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
   background-color: var(--btn-color);
-  
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
