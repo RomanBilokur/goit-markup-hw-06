@@ -849,7 +849,7 @@ body {
 
 .modal-form-check:checked + .modal-form-check-desc::before {
   background-color: var(--btn-color);
-  background-image: url(../images/modal-vector.svg);
+  background-image: url(../images/modal-vector-1.svg);
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
